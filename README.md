@@ -1,2 +1,4 @@
 # xDate
-📅xDate--a libirary for operate date.
+![](https://travis-ci.org/ystarlongzi/xDate.svg?branch=master)
+xDate--a libirary for operate date.
+
