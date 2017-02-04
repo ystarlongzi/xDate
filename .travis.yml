@@ -4,6 +4,7 @@ sudo: true
 
 node_js:
   - "6"
+  - node
 
 script:
   - npm test
