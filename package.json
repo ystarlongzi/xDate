@@ -6,7 +6,8 @@
   "homepage": "https://github.com/ystarlongzi/xDate",
   "scripts": {
     "test": "jest",
-    "coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+    "coverage": "jest --coverage",
+    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls"
   },
   "jest": {
     "collectCoverageFrom": [

@@ -1,6 +1,6 @@
 language: node_js
 
-sudo: true
+sudo: false
 
 node_js:
   - "6"
@@ -8,11 +8,8 @@ node_js:
 
 script:
   - npm test
-  - npm run coverage
+  - npm run coveralls
 
 before_install:
     - npm install
-
-after_script:
-    - npm run coveralls
 
